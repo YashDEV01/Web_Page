@@ -1,0 +1,613 @@
+/* 
+Headings : #000
+Primary : #01bacf
+Secondary : #82b440
+Content Color : #a2a2a2
+font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+p,span,li{
+    color:#a2a2a2;
+}
+img{
+    width:100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.topbar{
+    background:#000;
+    padding:10px 0;
+}
+.contact-info,.social-icons{
+    width:50%;
+    display: inline-block;
+    /* border:1px solid red; */
+}
+.topbar ul li{
+    display: inline-block;
+    margin-right:10px;
+}
+.social-icons{
+    text-align: right;
+}
+.container{
+    width:80%;
+    /* margin:0 auto; */
+    /* border:2px solid green; */
+}
+.contact-info ul li span:nth-child(1){
+    color:#01bacf;
+}
+.contact-info ul li span:nth-child(2){
+    color:#fff;
+}
+.contact-info ul li span:nth-child(1),.contact-info ul li span:nth-child(2){
+    font-size:14px;
+    margin-right:5px;
+}
+nav{
+    /* white-space: nowrap; */
+}
+.fa-facebook-square{
+    color:#3b5998
+}
+.fa-twitter-square{
+    color:#1da1f2
+}
+.fa-google-plus-square{
+    color:#dd4b39
+}
+.fa-linkedin{
+    color:#0077b5
+}
+.fa-pinterest-square{
+    color:#bd081c
+}
+.social-icons .fab{
+    font-size:20px;
+    margin:0 2px;
+}
+header{
+    position: relative;
+    height:90vh;
+    overflow: hidden;
+}
+header video{
+    width:100%;
+}
+header nav{
+    position:absolute;
+    top:20px;
+    width:100%;
+    /* border:1px solid green; */
+    text-align: center;
+}
+header nav figure,header nav div{
+    /* border:1px solid red; */
+    display: inline-block;
+    vertical-align: middle;
+}
+header nav figure{
+    width:20%;
+    text-align: left;
+}
+header nav div div{
+    width:80%;
+    text-align: right;
+}
+header nav div ul li{
+    display: inline-block;
+    padding:0 10px;
+}
+header nav div ul li a{
+    color:#fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+header nav figure img{
+    width:80%;
+    /* bordeR:1px solid red; */
+}
+header nav figure{
+    /* bordeR:1px solid red; */
+}
+.mob-para{
+    display: none;
+}
+.fa-shopping-basket{
+    color:#01bacf;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    /* background:rgba(0,0,0,0.5); */
+    background:url('../assets/pattern.png') rgba(0,0,0,0.7);
+    width:100%;
+    height:100%;
+}
+.banner-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+    /* border:1px solid red; */
+    width:70%;
+}
+.banner-content h1{
+    color:#fff;
+    font-size:54px;
+    margin:20px 0;
+}
+.banner-content p{
+    color:#a2a2a2;
+    font-style: italic;
+    line-height:1.7;
+    font-weight:bold;
+    margin:20px 0;
+}
+.banner-content button{
+    padding:13px 40px;
+    color:#fff;
+    border:none;
+    margin:10px;
+    font-size:14px;
+    font-weight: bold;
+}
+.main-btn{
+    background:#01bacf;
+    color:#fff;
+    border:none;
+    font-size:14px;
+    font-weight: bold;
+}
+.secondary-btn{
+    background:#82b440;
+}
+.explore{
+    position: absolute;
+    bottom:50px;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color:#fff;
+}
+.explore p{
+    color:#fff;
+    font-size:11px;
+    letter-spacing: 2px;
+    margin:10px 0;
+}
+.explore i{
+    font-weight: bold;
+}
+.learning figure{
+    width:30%;
+}
+.learning .learning-system{
+    width:70%;
+    padding:0 50px;
+}
+.learning figure,.learning .learning-system{
+    display: inline-block;
+    vertical-align: middle;
+}
+.list-col div{
+    width:33.33%;
+    display: inline-block;
+}
+.learning-system .top h2{
+    font-size: 28px;
+    margin:20px 0;
+    line-height:1.5;
+}
+.learning-system .top p{
+    margin:30px 0;
+    line-height:1.7;
+}
+.learning-system .top h2 span{
+    background:#01bacf;
+    color:#fff;
+    padding:0 10px;   
+}
+.list-col{
+    margin:40px 0;
+}
+.list-col .fa-check{
+    color:#01bacf;
+    margin-right:10px;
+}
+.list-col li{
+    margin:10px 0;
+}
+.learn{
+    padding:13px 40px;
+}
+.learn-button{
+    margin:30px 0;
+}
+.learning{
+    margin:40px 0;
+}
+.courses{
+    background:#f6f6f6;
+}
+.courses .top{
+    text-align: center;
+    padding:30px 0;
+    width:70%;
+}
+.courses .top h2{
+    margin:20px 0;
+}
+.courses .top p{
+    line-height: 1.7;
+    font-style:italic;
+}
+.newCourses > div{
+    width:25%;
+    display: inline-block;
+    padding:0 10px;
+    /* border:1px solid red; */
+}
+.newCourses > div > div{
+    background:#fff;
+    border: 1px solid #eaeaea;
+    /* border:1px solid green; */
+}
+.card-content > div > span{
+    color:#01bacf;
+    font-weight:bold;
+    font-size:14px;
+    /* border:1px solid red; */
+}
+.card-content h3 a{
+    color:#000;
+}
+.card-content h3{
+    font-size:16px;
+    margin:10px 0;
+    /* border:1px solid red; */
+}
+.card-content p{
+    font-size:14px;
+    margin:10px 0;
+    line-height: 1.5;
+}
+.card-bottom div{
+    /* border:1px solid red; */
+    display: inline-block;
+}
+.card-bottom li{
+    display: inline-block;
+}
+.card-bottom div:nth-child(1){
+    width:70%;
+}
+.card-bottom div:nth-child(2){
+    width:30%;
+}
+.card-bottom i{
+    color:#01bacf; 
+    font-size:12px;  
+}
+.card-bottom a{
+    color:#a2a2a2;
+    font-size:12px;
+}
+.card-bottom span{
+    color:#82b440; 
+    font-weight: bold;
+    font-size:14px;
+}
+.card-bottom{
+    border-top:1px solid #eaeaea
+}
+.card-content > div{
+    padding:15px;
+}
+.courses .bottom{
+    text-align: center;
+    padding:30px 0;
+}
+.numbers{
+    background:#000;
+    padding:50px 0;
+}
+.numbers .container > div{
+    width:33.33%;
+    padding:0 10px;
+    display: inline-block;
+}
+.numbers .container > div h2{
+    color:#fff;
+    font-size:40px;
+}
+.numbers .container > div i{
+    color:#01bacf;
+}
+.pipe{
+    color:#fff;
+    margin:0 5px;
+}
+.label{
+    color:#01bacf;
+    font-weight: bold;
+}
+.numbers .container > div > div{
+    margin:10px 0;
+}
+.numbers .container > div p{
+    font-style: italic;
+    font-size:14px;
+}
+.contact{
+    background:#01bacf;
+    padding:40px 0;
+}
+.form{
+    /* border:1px solid red; */
+    width:50%;
+    
+}
+.form h1{
+    color:#fff;
+    font-size:40px;
+    margin:20px 0;
+    text-align: center;
+}
+.form input,textarea{
+    width:100%;
+    margin:5px auto;
+    padding:10px;
+    background:rgb(0,0,0);
+    border:none;
+    color:#fff;
+    border-radius: 5px;
+}
+.form input::placeholder,.form textarea::placeholder{
+    color:#01bacf;
+}
+textarea{
+    height:150px;
+}
+.name div{
+    width:50%;
+    display: inline-block;
+}
+.form div div,.form > form > div{
+    padding:0 10px;
+    /* margin:0 10px; */
+}
+.name{
+    padding:0!important;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    padding:13px 40px;
+    border:none;
+    color:#000;
+    background:#ccc;
+    border-radius:5px;
+}
+.events{
+    position: absolute;
+    border-top:3px solid #01bacf;
+    background:#fff;
+    padding:20px 10px;
+    width:auto;
+    z-index:1;
+    margin-left:-50px;
+    display: none;
+    /* top:0;
+    left:0; */
+}
+.events div{
+    display: inline-block;
+    vertical-align: top;
+    width:auto;
+    text-align: left;
+    padding:0 10px;
+}
+.events div li{
+    display: block;
+    padding:0!important;
+}
+.wrapper{
+    width:250px!important;
+}
+.eventlist:hover .events{
+    display: block;
+}
+footer{
+    background:#000;
+    padding:40px 0;
+}
+footer h2{
+    color:#fff;
+    margin-bottom: 20px;
+}
+footer form{
+    margin:10px 0;
+}
+footer div{
+    width:25%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right:20px;
+}
+footer li{
+    display: block;
+    margin:10px 0;
+}
+footer a {
+    color:#fff;
+}
+footer input{
+    background:transparent;
+    border:1px solid #ccc;
+    padding:10px;
+}
+footer button{
+    padding:10px;
+    background:#01bacf;
+    border:1px solid #01bacf;
+    color:#fff;
+}
+@media screen and (max-width:768px){
+    header{
+        height:auto;
+    }      
+    .learning figure{
+        width:100%;
+    }
+    .learning .learning-system{
+        width:100%;
+        padding:0;
+    }
+    .list-col div{
+        vertical-align: top;
+        /* padding:0 10px; */
+    }
+    .learning-system .top p{
+        margin:20px 0;
+    }
+    .list-col{
+        margin:20px 0;
+    }
+    .learning{
+        margin:20px 0;
+    }
+    .courses .top{
+        width:100%;
+        padding:10px 0;
+    }
+    .newCourses > div{
+        width:50%;
+    }
+    
+    .form{
+        width:80%;
+    }
+    .form h1{
+        font-size:30px;
+    }
+    footer div{
+        width:50%;
+    }
+}
+@media screen and (max-width:480px){
+  
+     
+   
+    .list-col div{
+        width:100%;
+        display: inline-block;
+    }
+    
+    .newCourses > div{
+        width:100%;
+    }
+
+    
+    .numbers .container > div{
+        width:100%;
+       
+    }
+    .numbers .container > div h2{
+        color:#fff;
+        font-size:30px;
+    }
+    
+  
+   
+    .numbers .container > div > div{
+        margin:5px 0;
+    }
+        
+    .form{
+        width:80%;
+    }
+    .form h1{
+        font-size:30px;
+    }
+    footer div{
+        width:100%;
+    }
+
+    header nav{
+        display: none;
+    }
+    
+    .banner-content{
+        width:100%;
+        top:0;
+        transform: translateY(0%) translateX(-50%);
+        padding:0 10px;
+    }
+    .banner-content h1{
+        font-size:20px;
+        margin:5px 0;
+    }
+    .banner-content p{
+        margin:5px 0;
+    }
+    .banner-content button{
+        padding:6px 20px;
+        font-size:12px;
+    }
+    .main-btn{
+        font-size:12px;
+    }
+    .explore{
+        position: absolute;
+        bottom:0px;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .explore p{
+        color:#fff;
+        font-size:11px;
+        letter-spacing: 2px;
+        margin:0;
+    }
+    .mob-para{
+        display: block;
+    }
+    .desktop-para{
+        display: none;
+    }
+    
+    .contact-info,.social-icons{
+        width:100%;
+        display: inline-block;
+    }
+    .topbar ul{
+        text-align: center;
+    }
+    .topbar ul li{
+        display: inline-block;
+        margin-right:10px;
+    }
+    .social-icons{
+        text-align: center;
+        margin-top:10px;
+    }
+    .container{
+        width:90%;
+    }
+}
